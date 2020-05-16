@@ -25,14 +25,11 @@ myFunction();
 
 function sumation(num) {
   let counter = 0;
-  return function(num) {
       for(num; num > 1; num--) {
           counter = counter + num;
       }
-      return counter;
-  }
+      return ++counter;
 }
+console.log(sumation(4));
 
-const sumationalize = sumation(4);
 
-console.log(sumationalize);
