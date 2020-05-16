@@ -17,7 +17,7 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+// The variable is local. It is because it is in the lexical scope of the nested function.
 
 /* Task 2: Counter */
 
